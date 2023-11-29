@@ -28,7 +28,7 @@
 }
 
 /* MOBILE */
-@media (max-width:740px) {
+@media (max-width:739px) {
     .row{
         display: block;
     }
