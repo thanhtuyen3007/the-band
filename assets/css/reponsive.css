@@ -1,0 +1,94 @@
+/* PC */
+@media (min-width:1024px) {
+    #header .mobile-menu-btn{
+        display: none;
+    }
+}
+/* TABLET */
+@media (min-width:740px) and (max-width:1023px) {
+    .places-list .palce-btn{
+        padding: 15px 16px;
+    }
+    .contact-info{
+        line-height: 2;
+    }
+    .contact-form input{
+        padding: 15px 5px;
+    }
+    .socials-list{
+        font-size: 48px;
+    }
+    #footer .socials-list a{
+        margin: 0 8px;
+    }
+    #footer .cre a{
+        padding: 12px 0;
+        display: inline-block;
+    }
+}
+
+/* MOBILE */
+@media (max-width:740px) {
+    .row{
+        display: block;
+    }
+    .s-mt-8{
+        margin-top: 8px !important;
+    }
+    .s-col-full{
+        width: 100% !important;
+    }
+    #header{
+        overflow: hidden;
+    }
+    #header .search-btn{
+        display: none;
+    }
+    #header .mobile-menu-btn{
+        display: block;
+    }
+    #nav {
+        display: block;
+    }
+    #nav li a{
+        padding: 1px 24px;
+    }
+    #nav > li{
+        display: block;
+    }
+    #nav > li:first-child{
+        display: inline-block;
+    }
+    #nav .subnav {
+        position: initial;
+        background-color: #333;
+    }
+    #nav .subnav li a {
+        color: #fff;
+        padding: 5px 41px;
+    }
+    #content .members-list{
+        display: block;
+    }
+    #content .member-avatar{
+        width: 70%;
+        display: block;
+        margin: 15px auto
+    }
+    .places-list{
+        display: block;
+    }
+    .places-list .place-item,
+    .palce-btn{
+        width: 100%;
+    }
+    .contact-form{
+        margin-top: 32px;
+    }
+    .contact-info{
+        line-height: 2;
+    }
+    .form-submit-btn{
+        width: 100%;
+    }
+}
