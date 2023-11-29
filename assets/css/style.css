@@ -141,7 +141,7 @@ kiểu dáng(kiểu chữ)
     position: relative;
     margin-top: 46px;
     padding-top: 50%;
-    background: url(/assets/img/slider.jpg) top center / cover no-repeat;
+    background: url(../assets/img/slider.jpg) top center / cover no-repeat;
 }
 #slider .text-content{
     position: absolute;
@@ -158,6 +158,7 @@ kiểu dáng(kiểu chữ)
 #slider .text-description{
     font-size: 15px;
     margin-top: 25px;
+    text-shadow: 0 0 1px #000;
 }
 
 #content{
